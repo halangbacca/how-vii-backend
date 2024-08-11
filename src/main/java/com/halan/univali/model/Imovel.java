@@ -52,4 +52,5 @@ public class Imovel {
     public void setTipoImovel(TipoImovel tipoImovel) {
         this.tipoImovel = tipoImovel;
     }
+
 }

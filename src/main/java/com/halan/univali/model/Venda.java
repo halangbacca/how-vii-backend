@@ -19,7 +19,7 @@ public class Venda {
     @NotNull
     private LocalDate dataPagamento;
 
-    @Column(name = "valorPagamento")
+    @Column(name = "valor_pagamento")
     @NotNull
     private BigDecimal valorPagamento;
 
@@ -68,4 +68,5 @@ public class Venda {
     public void setImovel(Imovel imovel) {
         this.imovel = imovel;
     }
+
 }

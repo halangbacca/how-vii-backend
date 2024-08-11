@@ -30,12 +30,12 @@ public class UnivaliApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         Imovel imovel1 = new Imovel("4356", "Apartamento 100 m2 em condomínio fechado", TipoImovel.Apartamento);
         Imovel imovel2 = new Imovel("4357", "Apartamento 200 m2 em Balneário Camboriú", TipoImovel.Apartamento);
-        Imovel imovel3 = new Imovel("4358", "Loft 50 m2 em Florianópolis", TipoImovel.Loft);
-        Imovel imovel4 = new Imovel("4359", "Loft 150 m2 em Itajaí", TipoImovel.Loft);
-        Imovel imovel5 = new Imovel("4361", "Casa germinada 226 m2 em Tijucas", TipoImovel.Casa);
-        Imovel imovel6 = new Imovel("4362", "Casa de alvenaria 300 m2 em condomínio fechado", TipoImovel.Casa);
-        Imovel imovel7 = new Imovel("4363", "Sobrado 297 m2 em condomínio fechado", TipoImovel.Sobrado);
-        Imovel imovel8 = new Imovel("4364", "Sobrado 150 m2 em condomínio fechado", TipoImovel.Sobrado);
+        Imovel imovel3 = new Imovel("4358", "Loft 50 m2 em Florianópolis", TipoImovel.Galpao);
+        Imovel imovel4 = new Imovel("4359", "Loft 150 m2 em Itajaí", TipoImovel.Galpao);
+        Imovel imovel5 = new Imovel("4361", "Casa germinada 226 m2 em Tijucas", TipoImovel.Sala_Comercial);
+        Imovel imovel6 = new Imovel("4362", "Casa de alvenaria 300 m2 em condomínio fechado", TipoImovel.Sala_Comercial);
+        Imovel imovel7 = new Imovel("4363", "Sobrado 297 m2 em condomínio fechado", TipoImovel.Terreno);
+        Imovel imovel8 = new Imovel("4364", "Sobrado 150 m2 em condomínio fechado", TipoImovel.Terreno);
 
         imovelRepository.save(imovel1);
         imovelRepository.save(imovel2);

@@ -1,8 +1,8 @@
 package com.halan.univali.model;
 
 public enum TipoImovel {
-    Casa,
+    Terreno,
     Apartamento,
-    Loft,
-    Sobrado
+    Sala_Comercial,
+    Galpao
 }
